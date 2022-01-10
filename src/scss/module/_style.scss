@@ -1,0 +1,17 @@
+
+body{
+    background: rgba(30,32,41,255);
+    color: cornsilk;
+    font-size: 20px;
+
+    .container{
+        background-image: url(/src/img/1519185.jpg);
+        background-size: cover;
+        background-position: center;
+    
+            .container__main{
+                backdrop-filter: blur(5px);
+            }
+    }
+}
+
